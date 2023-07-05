@@ -21,10 +21,10 @@ public class Excel_runner extends  Base_Test
   public void fb() throws EncryptedDocumentException, IOException
   {
 	  POM1 p=new POM1(driver);
-	  String un = DDT_Generic.getData("Sheet1", 1, 0);
-	  p.passUN(un);
-	  String pwd = DDT_Generic.getData("Sheet1", 1, 1);
-	  p.passUN(pwd);
+	  String un1 = DDT_Generic.getData("Sheet1", 1, 0);
+	  p.passUN(un1);
+	  String pwd1 = DDT_Generic.getData("Sheet1", 1, 1);
+	  p.passUN(pwd1);
 	  p.login();
   }
 }
